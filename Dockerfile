@@ -4,4 +4,4 @@ apt-get update && \
 apt-get -y upgrade && \
 apt-get install -y apache2 && \
 RUN echo "This is a test docker" > /var/www/html/index.html
-EXPOSE 80 22
+EXPOSE 80 22 3389
